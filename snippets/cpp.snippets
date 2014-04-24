@@ -87,6 +87,8 @@ snippet ns
 	namespace ${1:`vim_snippets#Filename('', 'my')`} {
 		${0}
 	} /* namespace $1 */
+snippet us
+	using namespace ${1};
 ##
 ## Input/Output
 # std::cout
@@ -129,3 +131,6 @@ snippet lld
 	[${1}](${2}){
 		${3}
 	}
+## assert
+snippet a
+	assert( ${1} );
