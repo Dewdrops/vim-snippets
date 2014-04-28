@@ -16,10 +16,10 @@ snippet vars
 snippet ap
 	append(${1:slice}, ${0:value})
 # bool
-snippet bl
+snippet bo
 	bool
 # byte
-snippet bt
+snippet by
 	byte
 # break
 snippet br
@@ -162,14 +162,13 @@ snippet lp
 snippet mk
 	make(${1:[]string}, ${0:0})
 # map
-snippet mp
+snippet m
 	map[${1:string}]${0:int}
 # main()
 snippet main
 	func main() {
-		${1}
+		${0}
 	}
-	${0}
 # new
 snippet nw
 	new(${0:type})
