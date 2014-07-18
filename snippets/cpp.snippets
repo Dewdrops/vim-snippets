@@ -99,17 +99,6 @@ snippet cin
 	std::cin >> ${1};
 ##
 ## Iteration
-# for i
-snippet fori
-	for (int ${2:i} = 0; $2 < ${1:count}; $2${3:++}) {
-		${4}
-	}
-
-# foreach
-snippet fore
-	for (${1:auto} ${2:i} : ${3:container}) {
-		${4}
-	}
 # iterator
 snippet iter
 	for (${1:std::vector}<${2:type}>::${3:const_iterator} ${4:i} = ${5:container}.begin(); $4 != $5.end(); ++$4) {
